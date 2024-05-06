@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-component-library-starter",
+  "name": "react-scanqr",
   "private": true,
   "version": "0.0.0",
   "description": "A high-performance QR code scanner built for React web applications.",
@@ -38,7 +38,8 @@
     "build:lib": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier . --write --ignore-unknown",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "yarn prepare"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^7.6.5",
@@ -47,6 +48,7 @@
     "@storybook/builder-vite": "^7.6.5",
     "@storybook/react": "^7.6.5",
     "@storybook/react-vite": "^7.6.5",
+    "@testing-library/dom": "^10.1.0",
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.1",
