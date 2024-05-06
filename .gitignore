@@ -1,0 +1,18 @@
+node_modules
+dist
+storybook-static
+coverage
+
+# Yarn ignore
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+#!.yarn/cache
+.pnp.*
+
+# OS X
+.DS_Store
