@@ -4535,6 +4535,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@undecaf/barcode-detector-polyfill@npm:^0.9.20":
+  version: 0.9.20
+  resolution: "@undecaf/barcode-detector-polyfill@npm:0.9.20"
+  dependencies:
+    "@undecaf/zbar-wasm": "npm:^0.9.15"
+  checksum: 10c0/12b606ad41624d68bd6511ef5e5bae26daabe38de0b2f7b5f0b601c9f91ba31167f8e08ff6c9e941c68f85da8977e972c8d3a0f9fe6acbe1270cf37522dacdc6
+  languageName: node
+  linkType: hard
+
+"@undecaf/zbar-wasm@npm:^0.9.15":
+  version: 0.9.16
+  resolution: "@undecaf/zbar-wasm@npm:0.9.16"
+  dependencies:
+    jschardet: "npm:^3.0.0"
+  checksum: 10c0/ba44e6de6ce0e5277a10a375e0dd18b9bb1f77b4094d16562936db81258f5fdd0fce8b9a54063ad6dbad7fe2b76f07e9d9a41f72edd9e835805ef5aa32e49109
+  languageName: node
+  linkType: hard
+
 "@ungap/structured-clone@npm:^1.2.0":
   version: 1.2.0
   resolution: "@ungap/structured-clone@npm:1.2.0"
@@ -8635,6 +8653,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jschardet@npm:^3.0.0":
+  version: 3.1.2
+  resolution: "jschardet@npm:3.1.2"
+  checksum: 10c0/dd45be21cfac964fd634ffe17a251a92f1ca8bcdd517821f8aec380f32930c1548bd60a5d664b5ba601b5f838ce8419b852a3aad1ff915ae98c3209fbc9a460c
+  languageName: node
+  linkType: hard
+
 "jscodeshift@npm:^0.15.1":
   version: 0.15.2
   resolution: "jscodeshift@npm:0.15.2"
@@ -10617,6 +10642,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.17"
     "@typescript-eslint/eslint-plugin": "npm:^6.14.0"
     "@typescript-eslint/parser": "npm:^6.14.0"
+    "@undecaf/barcode-detector-polyfill": "npm:^0.9.20"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     "@vitest/coverage-v8": "npm:^1.0.4"
     "@vitest/ui": "npm:^1.0.4"
