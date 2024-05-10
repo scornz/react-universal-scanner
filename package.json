@@ -1,8 +1,8 @@
 {
-  "name": "react-scanqr",
+  "name": "react-scantool",
   "private": true,
   "version": "0.0.0",
-  "description": "A high-performance QR code scanner built for React web applications.",
+  "description": "A high-performance QR code/barcode scanner built for React web applications.",
   "author": "Mike Scornavacca",
   "license": "MIT",
   "type": "module",
