@@ -11,6 +11,11 @@ export default defineConfig({
     react(),
     dts({ rollupTypes: true }), // Output .d.ts files
   ],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './lib'),
+    },
+  },
   build: {
     target: 'esnext',
     minify: false,

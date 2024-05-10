@@ -19,6 +19,9 @@
     // Vite will handle the resolution of the import paths.
     "moduleResolution": "Bundler",
 
+    // Base for the relative paths in the import statements.
+    "baseUrl": ".",
+
     // Use the React 17 JSX transform, importing React is no longer required.
     "jsx": "react-jsx",
 
@@ -65,7 +68,12 @@
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": false,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+
+    "paths": {
+      // Define the path alias for the import statements.
+      "@/*": ["./lib/*"],
+    }
   },
   "include": ["./lib/**/*.ts", "./lib/**/*.tsx"],
   "exclude": ["./lib/**/*.stories.*"]
