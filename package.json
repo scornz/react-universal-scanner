@@ -1,5 +1,5 @@
 {
-  "name": "react-scantool",
+  "name": "react-universal-scanner",
   "private": true,
   "version": "0.0.0",
   "description": "A high-performance QR code/barcode scanner built for React web applications.",
