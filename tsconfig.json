@@ -72,7 +72,7 @@
 
     "paths": {
       // Define the path alias for the import statements.
-      "@/*": ["./lib/*"],
+      "@/*": ["./lib/*"]
     }
   },
   "include": ["./lib/**/*.ts", "./lib/**/*.tsx"],
