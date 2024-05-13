@@ -4,7 +4,8 @@
  */
 
 import { type RefObject, useCallback, useEffect, useMemo } from 'react';
-import { BarcodeDetectorPolyfill, type DetectedBarcode } from '@undecaf/barcode-detector-polyfill';
+import { BarcodeDetectorPolyfill } from '@undecaf/barcode-detector-polyfill';
+import type { DetectedCode } from '@/types';
 
 export interface ScanOptions {
   delay?: number;
@@ -24,7 +25,7 @@ const DEFAULT_OPTIONS = {
  */
 export function useScan(
   ref: RefObject<HTMLVideoElement>,
-  onScan: (barcode: DetectedBarcode) => void,
+  onScan: (barcode: DetectedCode) => void,
   scanning: boolean = true,
   opts?: ScanOptions,
 ) {
