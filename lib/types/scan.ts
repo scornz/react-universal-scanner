@@ -1,3 +1,3 @@
-import type { DetectedBarcode } from '@undecaf/barcode-detector-polyfill';
+import type { DetectedBarcode } from '@/utils';
 
 export type DetectedCode = DetectedBarcode;

@@ -4,7 +4,7 @@
  */
 
 import { type RefObject, useCallback, useEffect, useMemo } from 'react';
-import { BarcodeDetectorPolyfill } from '@undecaf/barcode-detector-polyfill';
+import { BarcodeDetectorPolyfill } from '@/utils';
 import type { DetectedCode } from '@/types';
 
 export interface ScanOptions {
