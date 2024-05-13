@@ -9,7 +9,7 @@ import { peerDependencies } from './package.json';
 export default defineConfig({
   plugins: [
     react(),
-    dts({ rollupTypes: true }), // Output .d.ts files
+    dts({ rollupTypes: true, tsconfigPath: 'tsconfig.build.json' }), // Output .d.ts files
   ],
   resolve: {
     alias: {
