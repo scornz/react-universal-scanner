@@ -1,4 +1,6 @@
 {
   "extends": "./tsconfig.json",
+  // Only have vite/client types in the global scope
+  "types": ["vite/client"],
   "exclude": ["./lib/**/*.stories.*"]
 }
